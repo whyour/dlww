@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f6f6f6;
+  font-family: 'Helvetica Neue', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-y: scroll;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 25px;
+}
+
+.ant-card-hoverable:hover {
+  border-color: transparent;
+  -webkit-box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.16), 0 3px 6px 0 rgba(0, 0, 0, 0.12), 0 5px 12px 4px rgba(0, 0, 0, 0.09);
+}
+
+.ant-card-hoverable {
+  cursor: pointer;
+}
+
+.ant-card {
+  width: 240px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  -webkit-font-feature-settings: 'tnum';
+  font-feature-settings: 'tnum';
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  display: flex;
+    align-items: center;
+}
+
+.ant-card-cover {
+  margin-right: -1px;
+  margin-left: -1px;
+}
+
+.ant-card-cover img {
+  border-radius: 2px 2px 0 0;
+}
+.ant-card-cover > * {
+  display: block;
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.ant-card-meta {
+  margin: -4px 0;
+}
